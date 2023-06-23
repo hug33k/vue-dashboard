@@ -1,0 +1,24 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: $black;
+	color: $white;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+a {
+	text-decoration: none;
+
+	&,
+	&:visited,
+	&:focus,
+	&:hover {
+		color: $green;
+	}
+}
+
+ul {
+	list-style: none;
+}
